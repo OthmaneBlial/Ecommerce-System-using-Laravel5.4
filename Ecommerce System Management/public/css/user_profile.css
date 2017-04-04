@@ -1,0 +1,43 @@
+.product-entry .product-deatil {
+    border-bottom: 1px solid #dfe5e9;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative
+}
+
+
+#user_profile {
+
+    border-bottom: 1px solid #dfe5e9;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative;
+    list-style: none;
+    text-align: center;
+
+
+
+}
+
+#user_profile > li  > a {
+
+     display: block;
+     padding: 20px 10px;
+     margin-bottom: -1px;
+     border-bottom: 2px solid transparent;
+     color: #757575;
+
+}
+
+#user_profile > li > a:hover,
+#user_profile > li > a:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+#user_profile > li.active > a {
+  color: #ed3e49;
+  border-bottom-color: #ed3e49;
+}
